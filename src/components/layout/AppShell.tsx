@@ -17,8 +17,7 @@ import {
   BookOpen,
   Bell,
   User,
-  Settings,
-  X
+  Settings
 } from 'lucide-react';
 
 export const AppShell: React.FC = () => {

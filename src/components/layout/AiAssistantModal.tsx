@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Modal } from '../ui/Modal';
-import { Sparkles, Send, Bot, User as UserIcon, Calendar, CheckCircle2, Award } from 'lucide-react';
+import { Sparkles, Send, Bot, User as UserIcon } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 interface AiAssistantModalProps {

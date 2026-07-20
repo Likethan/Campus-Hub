@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Sparkles, CalendarCheck, Briefcase, FileText, Users, ArrowRight, ShieldCheck, Zap, Award, CheckCircle2 } from 'lucide-react';
+import { Sparkles, CalendarCheck, Briefcase, FileText, Users, ArrowRight } from 'lucide-react';
 import { Button } from '../../components/ui/Button';
 
 export const SplashLanding: React.FC = () => {

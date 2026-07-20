@@ -35,7 +35,7 @@ export const Card: React.FC<CardProps> = ({
   const hoverProps = hoverable
     ? {
         whileHover: { y: -2, boxShadow: '0 12px 40px -4px rgba(15,23,42,0.12)' },
-        transition: { duration: 0.2, ease: 'circOut' },
+        transition: { duration: 0.2, ease: 'easeOut' as const },
       }
     : {};
 
@@ -44,7 +44,7 @@ export const Card: React.FC<CardProps> = ({
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay, duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ delay, duration: 0.45, ease: 'easeOut' }}
         {...hoverProps}
         className={combinedClass}
       >
@@ -55,7 +55,11 @@ export const Card: React.FC<CardProps> = ({
 
   if (hoverable) {
     return (
-      <motion.div {...hoverProps} className={combinedClass}>
+      <motion.div
+        whileHover={hoverProps.whileHover}
+        transition={hoverProps.transition}
+        className={combinedClass}
+      >
         {children}
       </motion.div>
     );
