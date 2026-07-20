@@ -35,7 +35,7 @@ export const Card: React.FC<CardProps> = ({
   const hoverProps = hoverable
     ? {
         whileHover: { y: -2, boxShadow: '0 12px 40px -4px rgba(15,23,42,0.12)' },
-        transition: { duration: 0.2, ease: [0.22, 1, 0.36, 1] as number[] },
+        transition: { duration: 0.2, ease: 'circOut' },
       }
     : {};
 
