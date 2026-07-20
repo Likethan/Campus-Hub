@@ -124,7 +124,7 @@ const StatCard: React.FC<StatCardProps> = ({
     <motion.div
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+      transition={{ delay, duration: 0.5, ease: [0.22, 1, 0.36, 1] as const }}
     >
       <Card hoverable padding="sm" className="flex flex-col justify-between h-full group">
         <div className="flex items-center justify-between">
@@ -171,7 +171,7 @@ export const DashboardPage: React.FC = () => {
 
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] as const } },
   };
 
   return (
@@ -471,7 +471,7 @@ export const DashboardPage: React.FC = () => {
               {/* Upcoming Classes */}
               {[
                 { time: '11:30 AM', name: 'DBMS Lab (Group A)', code: 'CS604', prof: 'Prof. Emily Watson', room: 'Computer Lab 4', badge: <Badge variant="warning" size="sm">Lab</Badge> },
-                { time: '2:00 PM', name: 'Machine Learning', code: 'CS606', prof: 'Prof. Arvind Kumar', room: 'LH-205', badge: <Badge variant="default" size="sm">Upcoming</Badge> },
+                { time: '2:00 PM', name: 'Machine Learning', code: 'CS606', prof: 'Prof. Arvind Kumar', room: 'LH-205', badge: <Badge variant="neutral" size="sm">Upcoming</Badge> },
               ].map((cls, i) => (
                 <motion.div
                   key={i}

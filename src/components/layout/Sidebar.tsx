@@ -40,7 +40,7 @@ const navItems = [
 
 const sidebarVariants = {
   hidden: { x: -16, opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] } },
+  visible: { x: 0, opacity: 1, transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] as const } },
 };
 
 const navListVariants = {
@@ -50,7 +50,7 @@ const navListVariants = {
 
 const navItemVariants = {
   hidden: { x: -12, opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 0.3, ease: [0.22, 1, 0.36, 1] } },
+  visible: { x: 0, opacity: 1, transition: { duration: 0.3, ease: [0.22, 1, 0.36, 1] as const } },
 };
 
 export const Sidebar: React.FC<SidebarProps> = ({ onOpenAiAssistant }) => {
