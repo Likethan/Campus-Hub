@@ -1,4 +1,4 @@
-name: GitHub Automation
+name: Auto Push Automation
 
 on:
   schedule:
@@ -6,17 +6,36 @@ on:
 
   workflow_dispatch:
 
+
+permissions:
+  contents: write
+
+
 jobs:
+
   automation:
 
     runs-on: ubuntu-latest
+
 
     steps:
 
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Test Automation
+
+    - name: Check for changes
       run: |
-        echo "Automation is running"
-        date
+        git status
+
+
+    - name: Auto Commit and Push
+      run: |
+        git config --global user.name "Likethan K J"
+        git config --global user.email "likethankj751@gmail.com"
+
+        git add .
+
+        git diff --cached --quiet || git commit -m "Automated update"
+
+        git push
