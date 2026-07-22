@@ -113,3 +113,5 @@ npx vercel
 ---
 
 *Built as a UI/UX portfolio project demonstrating senior-level frontend development skills.*
+
+Deployed Link - campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app
