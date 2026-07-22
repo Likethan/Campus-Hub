@@ -1,0 +1,22 @@
+name: GitHub Automation
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+
+  workflow_dispatch:
+
+jobs:
+  automation:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Test Automation
+      run: |
+        echo "Automation is running"
+        date
