@@ -183,3 +183,33 @@ npm run preview
 ::: {align="center"}
 Made with ❤️ using React, TypeScript & Tailwind CSS.
 :::
+
+
+## 🌐 Live Deployment
+
+Experience CampusHub in action:
+
+<p align="center">
+
+<a href="https://campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/🚀_Launch_CampusHub-Live_Demo-2563EB?style=for-the-badge" alt="Live Demo"/>
+</a>
+
+</p>
+
+<p align="center">
+🔗 <strong>Live URL</strong><br/>
+<a href="https://campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app">
+https://campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app
+</a>
+</p>
+
+---
+
+<div align="center">
+
+### ⭐ If you enjoyed this project, consider giving it a star on GitHub!
+
+Built with ❤️ by **Likethan K J**
+
+</div>
