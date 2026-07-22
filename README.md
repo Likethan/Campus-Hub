@@ -210,6 +210,9 @@ https://campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app
 
 ### ⭐ If you enjoyed this project, consider giving it a star on GitHub!
 
+
+Testing Git Auto Push Automation
+
 Built with ❤️ by **Likethan K J**
 
 </div>
