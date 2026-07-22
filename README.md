@@ -1,117 +1,261 @@
-# CampusHub — Unified Student Life Management Platform
+<div align="center">
 
-> A premium, modern SaaS-grade educational portal built with React 19, TypeScript, Vite, and Tailwind CSS v4.
+# 🎓 CampusHub
 
-[![Live Demo](campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app)
-[![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-6-3178c6?logo=typescript)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-06B6D4?logo=tailwindcss)](https://tailwindcss.com)
+### **One Platform. Every Student Need.**
 
----
+<p align="center">
+A premium, modern Student Life Management Platform designed to unify academic life into one seamless digital experience.
+<br/>
+Built with <strong>React 19</strong>, <strong>TypeScript</strong>, <strong>Vite</strong>, and <strong>Tailwind CSS v4</strong>.
+</p>
 
-## 📸 Features
+<br/>
 
-- **Dashboard** — Animated stat counters, Recharts attendance trend & GPA growth charts, subject attendance rings
-- **Attendance Tracker** — Per-subject analytics, skip-buffer calculator, 75% risk alert system
-- **Assignment Portal** — Drag & drop PDF upload with real-time progress, toast notifications
-- **Placement Drives** — Company listings, eligibility checks, one-click apply
-- **Events & Tickets** — Browse, register, QR ticket generation
-- **Clubs & Societies** — Join/leave communities, club feeds
-- **Notes Library** — Upload & browse study materials
-- **Student Profile** — Resume upload, skills, CGPA display
-- **Campus AI Assistant** — ⌘K command palette
-- **Dark Mode** — Full dark/light toggle with smooth transitions
-- **Responsive** — Mobile bottom nav + desktop sidebar
+<p align="center">
 
----
+<a href="https://campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-2563EB?style=for-the-badge"/>
+</a>
 
-## 🛠️ Tech Stack
+<a href="https://github.com/Likethan/CampusHub">
+<img src="https://img.shields.io/github/stars/Likethan/CampusHub?style=for-the-badge"/>
+</a>
 
-| Category | Technology |
-|---|---|
-| Framework | React 19 + TypeScript |
-| Build Tool | Vite 8 |
-| Styling | Tailwind CSS v4 |
-| Animations | Framer Motion 12 |
-| Charts | Recharts 3 |
-| Routing | React Router 7 |
-| Forms | React Hook Form + Zod |
-| Icons | Lucide React |
+<img src="https://img.shields.io/github/license/Likethan/CampusHub?style=for-the-badge"/>
 
----
+</p>
 
-## 🚀 Local Development
+<p align="center">
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/campus-hub.git
-cd campus-hub
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react"/>
 
-# Install dependencies
-npm install
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript"/>
 
-# Start development server
-node ./node_modules/vite/bin/vite.js
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite"/>
 
-# Build for production
-node ./node_modules/vite/bin/vite.js build
-```
+<img src="https://img.shields.io/badge/Tailwind-v4-38BDF8?style=flat-square&logo=tailwindcss"/>
 
-> **Note:** If your folder path contains `&` or other special characters, use the direct `node` command instead of `npm run dev`.
+<img src="https://img.shields.io/badge/Framer_Motion-black?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/Recharts-FF6384?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/React_Router-v7-red?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/MIT-License-success?style=flat-square"/>
+
+</p>
 
 ---
 
-## 📁 Project Structure
+### 🌐 Live Demo
 
-```
-src/
-├── components/
-│   ├── layout/        # AppShell, Sidebar, Navbar, MobileBottomNav
-│   └── ui/            # Button, Card, Badge, Toast, Modal, Input...
-├── context/
-│   ├── AppContext.tsx  # Global state management
-│   └── ThemeContext.tsx
-├── data/
-│   └── mockData.ts    # Demo data generators
-├── pages/
-│   ├── auth/          # Splash, Login, Signup, OTP, Onboarding
-│   ├── dashboard/     # Main dashboard with charts
-│   ├── attendance/    # Attendance tracker
-│   ├── assignments/   # Assignment portal & upload
-│   ├── placement/     # Placement drives
-│   ├── events/        # Events & tickets
-│   ├── clubs/         # Clubs & societies
-│   ├── notes/         # Notes library
-│   ├── notifications/ # Notification center
-│   ├── profile/       # Student profile
-│   └── settings/      # App settings
-└── types/
-    └── index.ts       # TypeScript interfaces
-```
+### https://campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app
 
 ---
 
-## 🎨 Design System
+### 📸 Preview
 
-- **Colors:** Primary `#2563EB` · Accent `#14B8A6` · Slate dark scale
-- **Typography:** Poppins (headings) · Inter (body) · IBM Plex Sans (numbers)
-- **Radius:** 12px cards · 16px panels · 24px modals
-- **Animations:** Framer Motion spring physics throughout
-- **Style:** Glassmorphism · Soft shadows · Apple-inspired spacing
+> Replace these placeholders with screenshots or GIFs.
 
----
+<img width="100%" src="assets/banner.png"/>
 
-## 🌐 Deployment
+<br/>
 
-Deployed on **Vercel** with automatic CI/CD from the `main` branch.
+<img width="100%" src="assets/dashboard.gif"/>
 
-```bash
-# Using Vercel CLI
-npx vercel
-```
+</div>
 
 ---
 
-*Built as a UI/UX portfolio project demonstrating senior-level frontend development skills.*
+# ✨ Overview
 
-Deployed Link - campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app
+CampusHub is a modern **Student Life Management Platform** that brings together every essential aspect of campus life into one elegant and intuitive application.
+
+Instead of switching between multiple disconnected systems for attendance, assignments, placements, events, clubs, notes, and profiles, CampusHub delivers a **single, unified experience** designed with a premium SaaS aesthetic and a user-first philosophy.
+
+The project focuses on combining **beautiful interface design**, **responsive user experience**, and **high-performance frontend architecture** to create a production-quality educational platform.
+
+Whether you're tracking attendance, submitting assignments, registering for events, exploring placement opportunities, or managing your academic profile, CampusHub keeps everything organized in one place.
+
+---
+
+# 🚀 Why CampusHub?
+
+Traditional student portals often suffer from outdated interfaces, poor navigation, and fragmented experiences.
+
+CampusHub reimagines academic management by providing:
+
+- 🎯 Unified student dashboard
+- 📊 Interactive analytics
+- 📅 Smart academic management
+- 📂 Digital assignment submission
+- 💼 Placement tracking
+- 🎉 Event registration
+- 👥 Club communities
+- 📚 Notes library
+- 🤖 AI-powered command palette
+- 🌙 Beautiful Dark Mode
+- 📱 Fully responsive experience
+
+---
+
+# 🎯 Core Features
+
+<table>
+
+<tr>
+
+<td width="50%">
+
+### 📊 Smart Dashboard
+
+- Animated statistics
+- Attendance analytics
+- GPA growth
+- Weekly overview
+- Recent activities
+- Upcoming deadlines
+
+</td>
+
+<td width="50%">
+
+### 📚 Attendance Tracker
+
+- Subject-wise analytics
+- Skip Calculator
+- Risk Alerts
+- Attendance Rings
+- Monthly Reports
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+### 📝 Assignment Portal
+
+- Drag & Drop Upload
+- Progress Indicators
+- Due Dates
+- Submission History
+- Toast Notifications
+
+</td>
+
+<td>
+
+### 💼 Placement Hub
+
+- Company Listings
+- Eligibility Checker
+- One-click Apply
+- Application Status
+- Recruitment Timeline
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+### 🎉 Campus Events
+
+- Browse Events
+- Register
+- QR Tickets
+- Event Timeline
+- Categories
+
+</td>
+
+<td>
+
+### 👥 Clubs & Societies
+
+- Join Communities
+- Club Activities
+- Member Dashboard
+- Announcements
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+### 📚 Notes Library
+
+- Upload PDFs
+- Download Resources
+- Subject Categories
+- Search Notes
+
+</td>
+
+<td>
+
+### 🤖 Campus AI
+
+- Command Palette
+- Quick Navigation
+- Instant Search
+- Smart Suggestions
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# 🖼️ Application Preview
+
+## Dashboard
+
+<img src="assets/dashboard.png"/>
+
+---
+
+## Attendance
+
+<img src="assets/attendance.png"/>
+
+---
+
+## Assignment Portal
+
+<img src="assets/assignment.png"/>
+
+---
+
+## Placement Dashboard
+
+<img src="assets/placement.png"/>
+
+---
+
+## Events
+
+<img src="assets/events.png"/>
+
+---
+
+## Student Profile
+
+<img src="assets/profile.png"/>
+
+---
+
+## Dark Mode
+
+<img src="assets/darkmode.png"/>
