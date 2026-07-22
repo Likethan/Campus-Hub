@@ -3,31 +3,28 @@ name: Auto Push Automation
 on:
   schedule:
     - cron: "*/30 * * * *"
-
   workflow_dispatch:
-
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
 
-
 jobs:
-
   automation:
-
     runs-on: ubuntu-latest
 
-
     steps:
-
     - name: Checkout repository
       uses: actions/checkout@v4
-
+      with:
+        fetch-depth: 0
 
     - name: Check for changes
       run: |
         git status
-
+        echo "Checking for uncommitted changes..."
 
     - name: Auto Commit and Push
       run: |
@@ -36,6 +33,10 @@ jobs:
 
         git add .
 
-        git diff --cached --quiet || git commit -m "Automated update"
-
-        git push
+        if ! git diff --cached --quiet; then
+          git commit -m "Automated update - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin main
+          echo "Changes pushed successfully"
+        else
+          echo "No changes to commit"
+        fi
