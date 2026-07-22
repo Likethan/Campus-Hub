@@ -2,7 +2,7 @@
 
 > A premium, modern SaaS-grade educational portal built with React 19, TypeScript, Vite, and Tailwind CSS v4.
 
-[![Live Demo]([https://img.shields.io/badge/Live%20Demo-Vercel-black?logo=vercel)](https://campushub.vercel.app](https://campus-hub-c6ri.vercel.app/))
+[![Live Demo](campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app)
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-3178c6?logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-06B6D4?logo=tailwindcss)](https://tailwindcss.com)
