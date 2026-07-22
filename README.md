@@ -56,8 +56,6 @@ Built with <strong>React 19</strong>, <strong>TypeScript</strong>, <strong>Vite<
 
 ### 📸 Preview
 
-> Replace these placeholders with screenshots or GIFs.
-
 <img width="100%" src="assets/banner.png"/>
 
 <br/>
@@ -72,7 +70,7 @@ Built with <strong>React 19</strong>, <strong>TypeScript</strong>, <strong>Vite<
 
 CampusHub is a modern **Student Life Management Platform** that brings together every essential aspect of campus life into one elegant and intuitive application.
 
-Instead of switching between multiple disconnected systems for attendance, assignments, placements, events, clubs, notes, and profiles, CampusHub delivers a **single, unified experience** designed with a premium SaaS aesthetic and a user-first philosophy.
+Instead of switching between multiple disconnected systems for attendance, assignments, placements, events, clubs, notes, and profiles, CampusHub delivers a **single, unified experience** designed to streamline your entire student journey.
 
 The project focuses on combining **beautiful interface design**, **responsive user experience**, and **high-performance frontend architecture** to create a production-quality educational platform.
 
@@ -219,6 +217,12 @@ CampusHub reimagines academic management by providing:
 ---
 
 # 🖼️ Application Preview
+
+## Onboarding
+
+<img src="assets/banner.png"/>
+
+---
 
 ## Dashboard
 
