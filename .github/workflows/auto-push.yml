@@ -28,13 +28,13 @@ jobs:
 
     - name: Auto Commit and Push
       run: |
-        git config --global user.name "Likethan K J"
+        git config --global user.name "Likethan"
         git config --global user.email "likethankj751@gmail.com"
 
         git add .
 
         if ! git diff --cached --quiet; then
-          git commit -m "Automated update - $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "maintenance update - $(date '+%Y-%m-%d %H:%M:%S')"
           git push origin main
           echo "Changes pushed successfully"
         else
