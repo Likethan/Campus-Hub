@@ -1,6 +1,5 @@
 # 🎓 CampusHub
 
-
 ## **One Platform. Every Student Need.**
 
 A premium Student Life Management Platform crafted with a modern SaaS
