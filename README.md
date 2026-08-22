@@ -15,7 +15,7 @@ Modern SaaS-inspired experience for managing attendance, assignments, placements
 ## 🌐 Live Demo
 
 **Live URL:**  
-https://campus-hub-c6ri-gs9u2t9s7-likethankj751-5239s-projects.vercel.app
+campus-hub-inky-omega.vercel.app
 
 ---
 
