@@ -2,7 +2,7 @@ name: Daily Contribution Automation
 
 on:
   schedule:
-    - cron: '0 4,12,20 * * *'
+    - cron: '30 3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -27,5 +27,5 @@ jobs:
           mkdir -p .github/automation
           printf 'Last automated update: %s\n' "$(date -u '+%Y-%m-%d %H:%M:%S UTC')" > .github/automation/activity.log
           git add .github/automation/activity.log
-          git commit -m "chore: automated contribution update" || exit 0
+          git commit -m "chore: daily activity update" || exit 0
           git push
