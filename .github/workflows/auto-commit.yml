@@ -2,7 +2,7 @@ name: Daily Contribution Automation
 
 on:
   schedule:
-    - cron: '*/120 * * * *'
+    - cron: '0 4,12,20 * * *'
   workflow_dispatch:
 
 permissions:
